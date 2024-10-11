@@ -74,7 +74,7 @@ Two items need to be copied to the script by the user:
 
 1. SAMPLEDIR_TRM="path to trimmed reads"
 
-   Afteer the '=' paste the full path the trimmed reads directory.
+   Afteer the '=' paste the full path to the trimmed reads directory.
 
 3. SAMPLEDIR_BASE="path to base project directory"
 
