@@ -82,3 +82,21 @@ Two items need to be copied to the script by the user:
 
 After adding the required items save the job file as 'spades_loop.job' and run it on hydra (qsub spades_loop.job).
 
+
+#### Flags Summary
+
+ -o is the path to the directory where you want your results saved
+ 
+ --pe1-1 is the path to the file of the paired R1 reads of the first paired-end 
+ library (you can have mutiple libraries as input files). 
+ 
+ --pe1-2 is the path to the file of the paired R2 reads of the first paired-end library. 
+ 
+ --pe1-s is the path of the unpaired reads (both R1 and R2 should be in the same file) of the first paired-end library.
+ 
+ -t is the number of threads
+ 
+ -m is the total amount of memory allocated 
+ 
+ --tmp-dir creates a temporary SSD to hold SPAdes temporary files. 
+ 
