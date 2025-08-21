@@ -37,7 +37,7 @@ SAMPLEDIR_BASE="path to base project directory"
 mkdir -p ${SAMPLEDIR_BASE}/spades_All_results
 
 # Create a directory for renamed final contigs for each sample
-mkdir -p ${SAMPLEDIR_BASE}/spades_All_results/contigs_renamed
+mkdir -p ${SAMPLEDIR_BASE}/spades_contigs_renamed
 
 # Begin loop that will generate a sample ID based on the file name of trimmed reads
 for GETSAMPLENAME in ${SAMPLEDIR_TRM}/*_R1_PE_trimmed.fastq.gz; do
@@ -55,7 +55,7 @@ spades.py \
 -t $NSLOTS --tmp-dir $SSD_DIR
 
 # Copy final contigs for each sample into the directory 'contigs_renamed' and rename it with sample ID
-cp ${SAMPLEDIR_BASE}/spades_All_results/${SAMPLENAME}_spades_results/contigs.fasta ${SAMPLEDIR_BASE}/spades_All_results/contigs_renamed/${SAMPLENAME}_spades_contigs.fasta
+cp ${SAMPLEDIR_BASE}/spades_All_results/${SAMPLENAME}_spades_results/contigs.fasta ${SAMPLEDIR_BASE}/spades_contigs_renamed/${SAMPLENAME}_spades_contigs.fasta
 
 done
 
