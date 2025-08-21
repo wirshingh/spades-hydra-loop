@@ -1,7 +1,7 @@
 # Run spades on hydra in a loop
 ### Summary
 This job file will run spades on hydra in a loop using trimmed reads. Results will be outputed to a directory named 'spades_All_results' which will contain sub-directories with results for each sample. 
-In addition, this directory will also contain a directory named 'contigs_renamed' which will have copies of the final contigs renamed with sample IDs.
+In addition, a directory named 'spades_contigs_renamed' will be created with copies of the final contigs renamed with sample IDs.
 
 For instructions on how to prepare the job file see "To Run this Job" below.
 
