@@ -27,10 +27,10 @@ echo + `date` job $JOB_NAME started in $QUEUE with jobID=$JOB_ID on $HOSTNAME
 echo + NSLOTS = $NSLOTS
 
 
-# Create a variable by entering full path to trimmed reads directory
+# Enter full path to trimmed reads directory
 SAMPLEDIR_TRM="path to trimmed reads"
 
-#Create a directory by entering full path the base project directory, where job file is located
+#Enter full path the base project directory. Where the results will be.
 SAMPLEDIR_BASE="path to base project directory"
 
 # Create a directory that will contain all spades results
