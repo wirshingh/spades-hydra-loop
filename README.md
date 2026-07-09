@@ -78,7 +78,7 @@ Two items need to be copied to the script by the user:
 
 3. SAMPLEDIR_BASE="path to base project directory"
 
-   After the '=' paste the full path to the base project directory, the directory that contains the job file.
+   After the '=' paste the full path to the base project directory. This is where the results will go.
 
 After adding the required items save the job file as 'spades_loop.job' and run it on hydra (qsub spades_loop.job).
 
