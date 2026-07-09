@@ -30,7 +30,7 @@ echo + NSLOTS = $NSLOTS
 # Enter full path to trimmed reads directory
 SAMPLEDIR_TRM="path to trimmed reads"
 
-#Enter full path the base project directory. Where the results will be.
+#Enter full path the base project directory. Where the results will go
 SAMPLEDIR_BASE="path to base project directory"
 
 # Create a directory that will contain all spades results
