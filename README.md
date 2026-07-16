@@ -9,10 +9,10 @@ For instructions on how to prepare the job file see "To Run this Job" below.
 # /bin/sh
 # ----------------Parameters---------------------- #
 #$ -S /bin/sh
-#$ -pe mthread 10
-#$ -q mThM.q
-#$ -l mres=120G,h_data=12G,h_vmem=200G,himem
-#$ -l ssd_res=200G -v SSD_SAVE_MAX=0
+#$ -pe mthread 12
+#$ -q lThM.q
+#$ -l mres=240G,h_data=20G,h_vmem=20G,himem
+#$ -l ssd_res=240G -v SSD_SAVE_MAX=0
 #$ -cwd
 #$ -j y
 #$ -N spades
